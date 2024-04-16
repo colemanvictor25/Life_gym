@@ -32,6 +32,9 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+::-webkit-scrollbar-track {
+	background-color: #1a1919; /* Dark gray track color */
+  }
 html,
 body {
 	height: 100%;
