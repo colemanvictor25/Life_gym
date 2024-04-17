@@ -35,8 +35,12 @@
 ::-webkit-scrollbar-track {
 	background-color: #1a1919; /* Dark gray track color */
   }
-html,
+
+header{
+	background-color: rgb(170, 255, 0);
+}
 body {
+	background-color: #181818;
 	height: 100%;
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -115,6 +119,9 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+ a{
+color: black;
+}
 
 .section-title {
 	margin-bottom: 45px;
@@ -123,7 +130,7 @@ ol {
 
 .section-title span {
 	font-size: 16px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -172,7 +179,7 @@ ol {
 	font-size: 14px;
 	padding: 17px 30px 16px;
 	color: #ffffff;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	line-height: normal;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -186,8 +193,8 @@ ol {
 }
 
 .primary-btn.btn-normal:hover {
-	background: rgba(255, 217, 0, 0.841);
-	border-color: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
+	border-color: rgb(170, 255, 0);
 }
 
 /* Preloder */
@@ -389,7 +396,7 @@ ol {
 }
 
 .nav-menu ul li.active>a {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 .nav-menu ul li.active>a:after {
@@ -397,7 +404,7 @@ ol {
 }
 
 .nav-menu ul li:hover>a {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 .nav-menu ul li:hover>a:after {
@@ -430,7 +437,7 @@ ol {
 	top: 22px;
 	height: 1px;
 	width: 100%;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	content: "";
 	-webkit-transform: rotate(-20deg);
 	-ms-transform: rotate(-20deg);
@@ -575,7 +582,7 @@ ol {
 }
 
 .hs-slider .hs-item .hi-text h1 strong {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 .hs-slider .hs-item .hi-text .primary-btn {
@@ -599,7 +606,7 @@ ol {
 }
 
 .cs-item:hover span {
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	color: #ffffff;
 }
 
@@ -609,7 +616,7 @@ ol {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 	display: inline-block;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	line-height: 90px;
 	text-align: center;
 	-webkit-transition: all 0.3s;
@@ -670,7 +677,7 @@ ol {
 }
 
 .class-item .ci-text span {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -745,14 +752,14 @@ ol {
 
 .bs-text .primary-btn {
 	background: transparent;
-	border: 2px solid rgba(255, 217, 0, 0.841);
+	border: 2px solid rgb(170, 255, 0);
 }
 
 .bs-text .play-btn {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -805,7 +812,7 @@ ol {
 }
 
 .ps-item:hover .primary-btn.pricing-btn {
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 }
 
 .ps-item:hover .thumb-icon {
@@ -832,7 +839,7 @@ ol {
 
 .ps-item .pi-price h2 {
 	font-size: 60px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	font-weight: 600;
 }
 
@@ -867,7 +874,7 @@ ol {
 
 .ps-item .thumb-icon {
 	font-size: 48px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	position: absolute;
 	left: 50px;
 	bottom: 120px;
@@ -914,7 +921,7 @@ ol {
 
 .gallery .gs-item .thumb-icon {
 	font-size: 48px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -981,7 +988,7 @@ ol {
 
 .primary-btn.appoinment-btn {
 	background: transparent;
-	border: 2px solid rgba(255, 217, 0, 0.841);
+	border: 2px solid rgb(170, 255, 0);
 	float: right;
 	margin-top: 10px;
 }
@@ -1006,7 +1013,7 @@ ol {
 }
 
 .ts-slider.owl-carousel .owl-dots button.active {
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 }
 
 .ts-slider.owl-carousel .owl-dots button:last-child {
@@ -1080,7 +1087,7 @@ ol {
 	display: inline-block;
 	height: 65px;
 	width: 65px;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	border-radius: 50%;
 	line-height: 65px;
 	text-align: center;
@@ -1235,7 +1242,7 @@ ol {
 
 .copyright-text a,
 .copyright-text i {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 /* ----------------------------------- Other Pages Styles ----------------------------------- */
@@ -1278,7 +1285,7 @@ ol {
 
 .breadcrumb-text .bt-option span {
 	font-size: 18px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	font-weight: 700;
 }
 
@@ -1303,7 +1310,7 @@ ol {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -1451,7 +1458,7 @@ ol {
 }
 
 .ss-text:hover a {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 .ss-text:hover:after {
@@ -1637,7 +1644,7 @@ ol {
 .class-timetable table thead tr th {
 	font-size: 14px;
 	color: #ffffff;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	border-right: 1px solid #363636;
 	padding: 15px 0;
 	font-weight: 400;
@@ -1650,7 +1657,7 @@ ol {
 
 .class-timetable table tbody tr td.class-time {
 	font-size: 12px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	background: #000000;
 	border: 1px solid #363636;
 }
@@ -1666,7 +1673,7 @@ ol {
 }
 
 .class-timetable table tbody tr td.hover-bg:hover {
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 }
 
 .class-timetable table tbody tr td.blank-td {
@@ -1825,7 +1832,7 @@ ol {
 }
 
 .sidebar-option .so-categories ul li:hover a {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 }
 
 .sidebar-option .so-categories ul li:hover a span {
@@ -2062,7 +2069,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 15px 0;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 }
 
 /*---------------------
@@ -2562,7 +2569,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 14px 0 12px;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 }
 
 /*---------------------
@@ -2585,7 +2592,7 @@ ol {
 
 .contact-widget .cw-text i {
 	font-size: 30px;
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	display: inline-block;
 	height: 65px;
 	width: 65px;
@@ -2700,7 +2707,7 @@ ol {
 	color: #ffffffb3;
 	height: 46px;
 	width: 100%;
-	background: rgba(255, 217, 0, 0.841);
+	background: rgb(170, 255, 0);
 	border: none;
 	padding-left: 20px;
 }
@@ -2756,7 +2763,7 @@ ol {
 }
 
 .text-404 a i {
-	color: rgba(255, 217, 0, 0.841);
+	color: rgb(170, 255, 0);
 	margin-right: 5px;
 }
 
@@ -2964,12 +2971,12 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: rgba(255, 217, 0, 0.841);
+		color: rgb(170, 255, 0);
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: rgba(255, 217, 0, 0.841);
+		color: rgb(170, 255, 0);
 	}
 	.nav-menu {
 		display: none;
@@ -3110,15 +3117,15 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: rgba(255, 217, 0, 0.841);
+		color: rgb(170, 255, 0);
 	}
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
-		color: rgba(255, 217, 0, 0.841);
+		color: rgb(170, 255, 0);
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: rgba(255, 217, 0, 0.841);
+		color: rgb(170, 255, 0);
 	}
 	.nav-menu {
 		display: none;
